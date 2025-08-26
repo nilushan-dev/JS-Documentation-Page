@@ -43,7 +43,7 @@ technical-documentation-page/<br>
 
 ## Live Demo
 
-[View the live demo](https://nilushan-dev.github.io/JS-Documentation-Page/)
+[View the live demo](https://nilushan-dev.github.io/js-documentation-page/)
 
 ---
 
