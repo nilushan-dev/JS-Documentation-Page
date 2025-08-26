@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background-color: aliceblue;
+    min-width: 320px;
+    color: #333;    
+    line-height: 1.7;
+}
+
+/*
+-----------------------
+navbar styling
+====================================================== */
+#navbar{
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-y: auto;
+    height: 100vh;
+    width: 250px;
+    padding: 30px 20px;
+    border-right: 2px solid #adacac;
+    z-index: 1000;
+
+}
+
+#navbar header{
+    font-size: 2rem;
+    text-align: center;
+    font-weight:600;
+    margin-bottom: 25px;
+}
+
+#navbar ul{
+    list-style: none;
+}
+
+#navbar ul li{
+    margin-bottom: 10px;
+}
+
+#navbar ul li a{
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.active {
+    background-color: #000000;
+    color: #975656;
+}
+
+
+/*
+-----
+main-section styling
+------*/
+
+#main-doc{
+    margin-left: 280px;
+    max-width: 1000px;
+    padding: 40px 30px;
+
+}
+
+.main-section {
+    margin-bottom: 50px;
+}
+
+.main-section header {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 6px;
+}
+
+.main-section p{
+    margin-bottom: 20px;
+
+}
+
+.main-section ul{
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+.main-section ul li{
+    margin-bottom: 8px;
+}
+
+code{
+    display: block;
+    background-color: #d5d4d4;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-family: monospace;
+    overflow-x: auto;
+    line-height: 1.6;
+
+}
+
+/*
+------
+Responsive Design
+-----*/
+@media screen and (max-width: 900px){
+    #navbar{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        border-right: none;
+    }
+
+    #main-doc{
+        margin-left: 0;
+        padding: 20px 15px;
+    }
+
+    #navbar ul li a{
+        padding: 10px 12px;
+    }
+    .main-section ul li {
+    margin-bottom: 12px;
+}
+
+}
+    
+
